@@ -1,3 +1,7 @@
-package com.example.project.controller;
-import java.util.List;
-import org.springframework.beans.factory.annotation,Au
+package com.example.project.entity;
+import java.time.LocalDate;
+public class student{
+    private int id;
+    private String name;
+    private String email;
+}
