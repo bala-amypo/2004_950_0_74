@@ -2,7 +2,10 @@ package com.example.project.entity;
 
 import jakarta.persistence.*;
 
+@entity
 public class student{
+    @id
+    @GeneratedValue(strategy = GenerationType.INDENTITY)
     private int id;
     private String name;
     private String email;
